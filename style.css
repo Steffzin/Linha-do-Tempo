@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.toggle-buttons {
+    position: absolute;
+    top: 22px;
+    right: 10px;
+    transform: translateY(-50%);
+    display: inline-block;
+    position: relative;
+}
+
+.toggle-button {
+    background-color: #555;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    position: relative;
+}
+
+.toggle-button:hover {
+    background-color: #777;
+}
+
+.timeline-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    max-width: 100%;
+}
+
+.timeline-horizontal {
+    margin: 150px;
+    max-width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    display: inline-block;
+    justify-content: space-between;
+    padding: 10px;
+    position: relative;
+}
+
+.event {
+    margin: 10px;
+    text-align: center;
+    width: 150px;
+    position: relative;
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.event h3 {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.event p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.event img {
+    width: 120px;
+    height: 80px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+.event-detail {
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 900px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.event-detail img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.image-gallery img {
+    width: 32%;
+    border-radius: 5px;
+}
+
+.event-detail h2, .event-detail h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.event-detail p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.footer p{
+    font-size: 18px;
+    top: 95%;
+}

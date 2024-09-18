@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    margin-bottom: 4%;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.toggle-buttons {
+    position: absolute;
+    top: 22px;
+    right: 10px;
+    transform: translateY(-50%);
+    display: inline-block;
+    position: relative;
+}
+
+.toggle-button {
+    background-color: #555;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    position: relative;
+}
+
+.toggle-button:hover {
+    background-color: #777;
+}
+
+.timeline-container {
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 1000px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    position: relative;
+}
+
+.timeline-horizontal {
+    display: inline-block;
+    justify-content: space-between;
+    padding: 10px;
+    position: relative;
+}
+
+.event {
+    text-align: center;
+    width: 150px;
+    position: relative;
+    display: inline-block;
+}
+
+.event h3 {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.event p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.event img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.event-detail {
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 900px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.event-detail img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    object-fit: cover;
+}
+
+.event-detail #img-vargas{
+    width: 100%;
+    max-height: 50px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    object-fit: cover;
+    max-width: 50px;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.image-gallery img {
+    width: 45%;
+    border-radius: 5px;
+}
+
+.event-detail h2, .event-detail h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.event-detail p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.event-detail p b{
+    color: #333;
+}
+
+.expansao-conteiner .expansao{
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.expansao{
+    margin: 25px;
+    display: inline-block;
+    justify-content: space-between;
+    padding: 10px;
+    position: relative;
+    background-color: #dadada;
+    border-radius: 10px;
+    box-shadow: black;
+    
+}
+
+.expansao .aliados{
+    margin: 10px;
+    text-align: center;
+    color: rgb(0, 174, 255);
+}
+
+.expansao .sovieticos{
+    margin: 10px;
+    text-align: center;
+    color: red;
+}
+
+.expansao .eixos{
+    margin: 10px;
+    text-align: center;
+    color: black;
+}
+
+.expansao .neutros{
+    margin: 10px;
+    text-align: center;
+    color: gray;
+}
+
+
+.footer p{
+    font-size: 18px;
+    top: 95%;
+}
